@@ -1,0 +1,6 @@
+class AddCompanyDevIdColumn < ActiveRecord::Migration[6.1]
+  def change
+    add_column :freebies, :company_id, :integer
+    add_column :freebies, :dev_id, :integer
+  end
+end
